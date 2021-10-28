@@ -1,0 +1,13 @@
+.add-button {
+    position:fixed;
+    top: calc(91% - 30px);
+    left: calc(75% - 30px);
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    font-size:30px;
+    border-color: aquamarine;
+    border-width: 0;
+    background-color: rgb(71, 117, 216);
+    color: white;
+}

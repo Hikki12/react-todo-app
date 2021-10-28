@@ -1,0 +1,37 @@
+.todo-item {
+    font-weight: bold;
+    display:flex;
+    height:80px;
+    min-width: 300px;
+    max-width: 500px;
+    width:50%;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background-color: white;
+    color: #173599;
+    text-align: center;
+    list-style: none;
+}
+
+.todo-item-check {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.todo-item-text {
+    color: #515152;
+    flex-grow: 4;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.todo-item-delete {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.is-completed {
+    text-decoration: line-through;
+}
