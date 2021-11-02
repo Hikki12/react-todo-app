@@ -1,0 +1,46 @@
+.buttons-container {
+    display: flex;
+    justify-content:center;
+}
+
+.cancel-task-button {
+    width: 80px;
+    margin-left: 5px; 
+    height: 30px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.add-task-button {
+    margin-left: 10px;
+    width: 80px; 
+    height: 30px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: rgb(67, 51, 211);
+    color: white; 
+}
+
+
+.form-task { 
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.form-title {
+    font-size:30px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.form-textarea {
+    font-size: 15px;
+    width: 300px;
+    height: 160px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}

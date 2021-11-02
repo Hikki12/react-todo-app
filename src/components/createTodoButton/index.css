@@ -10,4 +10,5 @@
     border-width: 0;
     background-color: rgb(71, 117, 216);
     color: white;
+    z-index: 1;
 }

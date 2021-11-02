@@ -1,10 +1,11 @@
 import React from 'react';
 import './index.css';
 
-function CreateTodoButton(){
+function CreateTodoButton({ setOpenModal }){
   const onClickButton = () => {
-    alert('Botón pulsado!');
+    setOpenModal((prevState) => !prevState);
   };
+
 
   return (
   // react interpreta las llaves vacias como un Fragment
